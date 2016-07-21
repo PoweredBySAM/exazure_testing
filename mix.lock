@@ -1,3 +1,3 @@
-%{"erlazure": {:git, "https://github.com/gullitmiranda/erlazure.git", "9c23921d0a64c954da93b98477743bbd3eac9cdc", []},
-  "ex_azure": {:hex, :ex_azure, "0.1.1", "cccf1139dec783b8ea0454db7769136233e26289b284a543d0076a7b6df3e800", [:mix], []},
-  "jsx": {:git, "git://github.com/talentdeficit/jsx.git", "3074d4865b3385a050badf7828ad31490d860df5", [ref: "master"]}}
+%{"erlazure": {:git, "https://github.com/PoweredBySAM/erlazure.git", "ef690e400c62ed6a301be3e827d8d8dbef4dd9c9", [branch: "bugs/jsx-version"]},
+  "ex_azure": {:git, "https://github.com/PoweredBySAM/ex_azure.git", "42098adfe006a0ade3eea92ac762e949513ad5cc", [branch: "bugs/jsx-version"]},
+  "jsx": {:hex, :jsx, "2.8.0", "749bec6d205c694ae1786d62cea6cc45a390437e24835fd16d12d74f07097727", [:mix, :rebar], []}}

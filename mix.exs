@@ -28,8 +28,8 @@ defmodule ExazureTesting.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:ex_azure, "~> 0.1.0"},
-      {:erlazure, github: "gullitmiranda/erlazure", manager: :rebar}
+      {:ex_azure, github: "PoweredBySAM/ex_azure", branch: "bugs/jsx-version"},
+      {:erlazure, github: "PoweredBySAM/erlazure", branch: "bugs/jsx-version", manager: :rebar},
     ]
   end
 end
